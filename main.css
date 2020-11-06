@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    width:15%;
+    height:50px;
+    justify-content: center;
+}
+
+#logo-image{
+    width:70px;
+    height: inherit;
+    margin:5px 5px;
+    border-radius: 10px;
+}
+.logo a{
+    margin: auto 10px auto 5px;
+    color: black;
+    font-size: 22px;
+}
+#search-form{
+    width: 70%;
+    height: inherit;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    width: 15%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/*User symbol*/
+#user{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+/*Font owesomes in the header*/
+#bell,#grid,#camera{
+    color: grey;
+    margin-left: 10px;
+    font-size: 20px;
+}
+/*Search-area*/
+#search-area{
+    width: 65%;
+    height: 30px;
+    border-radius: 2px;
+    outline: none;
+    border: 1px solid silver;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#search-button{
+    width: 70px;
+    height: 30px;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 2px;
+}
+#search-button:hover{
+    cursor: pointer;
+}
+#search-icon{
+    font-size: 16px;
+}
+/*Video play section and the highlights*/
+.video-area{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+/*Container for the video section*/
+.video-container{
+    width: 70%;
+    height: inherit;
+}
+/*Video highlights*/
+.video-highlights{
+    width: 30%;
+    height: 98.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 70px;
+}
+/*Iframe holder*/
+#iframe-container{
+    width: 90%;
+    height: 98.5%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 5px;
+    flex-direction: column;
+}
+/*container for the video information*/
+#video-info{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+/*Name of the song and the views area*/
+#video-title{
+    width: 45%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+/*Container for the likes and unlike sections*/
+#video-votes{
+    width: 45%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: serif;
+}
+#thumbs-up,#thumbs-down,#share,#save{
+    font-size: 20px;
+    margin: 10px;
+    color: grey;
+}
+.related-videos{
+    width: 90%;
+    height: 150px;
+    border: 1px solid grey;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+}

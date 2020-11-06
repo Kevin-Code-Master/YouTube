@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>YouTube</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="header">
+         <div class="logo">
+             <a href="#"><i class="fa fa-bars" id="bars"></i></a><a href="#"><img src="Images/logo-image.png" id="logo-image"></a>
+         </div> 
+         <form action="index_submit" method="get" accept-charset="utf-8" id="search-form">
+            <input type="text" name="search-area" id="search-area" placeholder="Search">
+            <button type="submit" id="search-button"><i class="fa fa-search" id="search-icon"></i></button>
+         </form>
+         <div class="menu">
+             <a href="#"><i class="fa fa-video-camera" aria-hidden="true" id="camera"></i></a>
+             <a href="#"><i class="fa fa-th" aria-hidden="true" id="grid"></i></a>
+             <a href="#"><i class="fa fa-bell" aria-hidden="true" id="bell"></i></a>
+             <a href="#"><div id="user">
+              <h1 style= "font-family: Helvetica; font-size: 15px;">K</h1>  
+             </div></a>
+         </div>
+      </section>
+      <section class="video-area">
+        <div class="video-container">
+            <div id="iframe-container">
+              <iframe width="900px" height="510px" src="https://www.youtube.com/embed/OC93pNSrRP8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="video-info">
+              <div id="video-title">
+                <h1 style="font-family: sans-serif; font-size: 18px; margin: 0 0 7px">Reekado Banks - Rora (Official Video)</h1>
+                <p style="font-family: sans-serif; font-size: 15px; color: grey;">12,612,469 views .Premiered on 11 Oct 2019</p>
+              </div>
+              <div id="video-votes">
+                <a href="#"><i class="fa fa-thumbs-up" id="thumbs-up"><span style="font-family: sans-serif; font-size: 17px;"> &nbsp 81K</span></i></a>
+                <a href="#"><i class="fa fa-thumbs-down" id="thumbs-down"><span style="font-family: sans-serif; font-size: 17px;"> &nbsp 2.2K</span></i></a>
+                <a href="#"><i class="fa fa-share" id="share"><span style="font-family: sans-serif; font-size: 15px;">&nbsp SHARE</span></i></a>
+                <a href="#"><i class="fa fa-save" id="save"><span style="font-family: sans-serif; font-size: 15px;">&nbsp SAVE</span></i></a>
+              </div>
+            </div>
+        </div>
+        <div class="video-highlights">
+            <div class="related-videos" id="simpo" style="margin-top: 20px;">
+              <iframe width="260px" height="150px" src="https://www.youtube.com/embed/Wv0pMmJdilM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h3 style="font-size: 12px; font-family: sans-serif; margin: 10px 10px;">Vivian X Stivo Simple Boy<br> Simple Simple</h3>
+            </div>
+            <div class="related-videos"><iframe width="260" height="150" src="https://www.youtube.com/embed/tIHhfl8fIj4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h3 style="font-size: 12px; font-family: sans-serif; margin: 10px 10px;">
+              Master KG ft Nomcebo Jerusalema <br>( Lyrics + Translation French & English )</h3>
+            </div>
+            <div class="related-videos"><iframe width="260" height="150" src="https://www.youtube.com/embed/6Xbk4Qa-0co" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h3 style="font-size: 12px; font-family: sans-serif; margin: 10px 10px;">Alikiba - MEDIOCRE (Official Music Video)</h3></div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
